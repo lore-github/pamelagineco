@@ -1,0 +1,217 @@
+@media (max-width: 1020px) 
+{
+
+
+}
+@media screen and (min-width: 40em) {
+  .nav-collapse a {
+    border-radius: 30px;
+    text-align: center;
+    border-top: 0;
+    float: left;
+    margin: 0;
+  }
+}
+
+.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}
+@media screen and (min-width: 40em) {
+  .nav-collapse {
+    float: right;
+    width: auto;
+  }
+  
+
+}
+
+.nav-collapse li {
+  float: left;
+  width: 100%;
+  margin: 10px;
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse li {
+    width: auto;
+  }
+}
+
+@media (max-width: 904px) 
+{
+ 
+ .texto-depoimento {
+    /* width: 80%; */
+    text-align: -webkit-center;
+    font-weight: 200;
+    margin: 10px 10 7px 0 color: #784937;
+    padding: 10px 0 20px 0;
+}   
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 30px 20px;
+}
+
+.about .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about .about-content .left img {
+    width: 300px;
+}
+
+.about .about-content .right p {
+    text-align: center; 
+    width: 300px;
+}
+.about .about-content .right .text {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 30%;
+    text-align: center;
+    width: 100%;
+}
+.folha {
+    margin-top: -20%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.titulo-esquerda {
+    color: #784937;
+    float: left;
+    margin-left: 0%; 
+    font-size: 40px;
+    font-style: italic;
+}
+.titulo-direito {
+    color: #784937;
+    float: right;
+    margin-right: 0%;
+    font-size: 40px;
+    font-style: italic;
+}
+
+hr {
+    margin-top: 1%;
+    border-radius: 20px;
+    width: 20%;
+}
+  .nav-collapse, .nav-collapse ul {
+    list-style: none;
+    width: 100%;
+    float: left;
+    right: 0%;
+}
+.wrapper {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    flex-direction: column;
+} 
+
+
+.sobre .sobre-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.depoimentos-content {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media (max-width: 600px) {
+
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+.depoimentos-content {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.inicio-content .text-3 {
+    font-size: 20px;
+    width: 100%;
+    color: #dcaba6;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+.about .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.about .about-content .left img {
+    width: 280px;
+}
+
+.about .about-content .right p {
+    text-align: left;
+    width: 260px;
+    margin: 0 0 60px 0;
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 30%;
+    text-align: left;
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
